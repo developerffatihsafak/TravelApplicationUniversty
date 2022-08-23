@@ -3,11 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessLayer.Abstract
+namespace DataAccessLayer.Abstract
 {
-    public interface ITestmonialService : IGenericService<TestiMonial>
+    public interface ITestiMonialDal : IGenericDal<TestiMonial> 
     {
-
     }
-    
 }

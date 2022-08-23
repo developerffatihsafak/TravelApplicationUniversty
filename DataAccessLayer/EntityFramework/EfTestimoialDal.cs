@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfTestimoialDal : GenericRepository<TestiMonial>, ITestiMonial
+    public class EfTestimoialDal : GenericRepository<TestiMonial>, ITestiMonialDal
     {
     }
 }
